@@ -1,0 +1,125 @@
+html, body {margin: 0; padding: 0;}
+.backsize_sh{
+    margin-left: 5%;
+     margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width:90%;
+    height: 80%;
+    background-color: bisque;
+}
+.nav_sh {
+    height: 100vh;
+    background-color: #E0E0E0;
+    float: left;
+    box-sizing: border-box;
+    display: block;
+    clear: both;
+}
+.center_sh{
+    padding-top: 3%;
+
+    text-align: center;
+}
+.areale_sh{
+    width: 60%;
+    float: left;
+    height: 80%;
+}
+.areari_sh{
+    width:40%;
+    height: 50%;
+    float: right;
+}
+.sboxdiv_sh{
+     margin-bottom: 13%;
+}
+.lediv_sh{
+    
+    margin-bottom: 10%;
+    
+}
+.release_sh{
+    margin-bottom: 10%;
+}
+.sboxdiv_sh{
+    margin-bottom: 13%;
+}
+.ridiv_sh{ 
+    
+    margin-bottom: 13%;
+    
+}
+.selbox_sh{
+    margin-left: 1%;
+    font-size: 15px;
+}
+.sbinput_sh{
+    margin-left: 1%;
+    width: 40%;
+	height: 25px;
+	display: inline-block;
+}
+.sbfloatle_sh{
+    float: left;
+    
+}
+.sbstyle_sh{
+    margin-left: 30%;
+}
+.sbfloatri_sh{
+    float: right;
+}
+.fontsize_sh{
+    2rem;
+}
+.btnmu1_sh{
+    
+}
+.btnmu2_sh{
+    margin-left: 5%;
+}
+.btnmu3_sh{
+    margin-left: 5%;
+}
+@media screen and (max-width: 768px) {
+    .areale_sh{
+        height: 220px;
+        width: 100%;
+    }
+    .areari_sh{
+        height: 180px;
+        width: 100%;
+    }
+    
+    .ridiv_sh{ 
+  
+        text-align: center;
+        margin-bottom: 5%;
+    
+    }
+    .release_sh{
+        margin-top: 5%;
+        text-align: center;
+        margin-bottom: 5%;
+        margin-left: 0%;
+    }
+    .lediv_sh{
+        margin: 0;
+        text-align: center;
+    margin-bottom: 5%;
+    
+    }
+    .sboxdiv_sh{
+        margin-left: 23%;
+        margin-bottom: 5%;
+    }
+   
+}
+
+@media screen and (max-width: 576px) {
+    
+    .areale_sh{
+        width: 100%;
+    }
+}

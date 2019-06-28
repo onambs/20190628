@@ -1,0 +1,144 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/project.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js">
+            
+        </script>
+        
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js">
+        </script>
+        <script>
+            $(document).ready(function(){
+                $("thead input[type=checkbox]").click(function() {
+                    if($("thead input[type=checkbox]").is(":checked")){
+                        console.log("1");
+                        $("tbody input[type=checkbox]").prop('checked', true) ;
+                    }else {
+                        console.log("2");
+                        $("tbody input[type=checkbox]").prop('checked', false) ;
+                    }
+                });
+            });
+        </script>
+        <style>
+            
+        </style>
+    </head>
+    
+    <body class="backwidth_sh">
+        <div class="bamargin_sh">
+            <nav class="nav_sh">
+            <h2 class="center_sh" >
+                  임시출고/위탁
+            </h2>
+                
+            </nav> 
+            <div class="menu_sh">
+                <h2 class="margin_sh" style="font-size: 3rem;">
+                출고관리
+                </h2>
+            </div>
+            <div class= "menu3_sh">
+                
+                <div class="btnmu_sh">
+                    <a href="prosub.html"><button type="submit" class="btnmu1_sh" id="serch">등록</button></a>
+                    <a href="prosub.html"><button type="submit" class="btnmu2_sh"  id="serch">수정</button></a>
+                    <button type="submit" class="btnmu3_sh"  id="serch">삭제</button>
+                </div>
+                
+            </div>
+            <div class="box_sh">
+                <div class="boxma_sh center.sh">
+                    <label for="company_sh" style="font-size: 15px;">회사</label>
+                    <input type="text" class="input_sh"  id="company" value="" placeholder="회사명">
+                    <button type="submit" class="btn_sh" id="serch" style="font-size: 15px;">검색</button>
+                </div>
+                 <div class="boxma2_sh center.sh">
+                    <label for="meni" style="font-size: 15px; ">담당자</label>
+                     <input type="text" class="input_sh" id="meni" value="" placeholder="담당자명">
+                    <button type="submit" class="btn_sh" id="serch" style="font-size: 15px;">검색</button>
+                </div>
+            </div>
+			<div class="menu2_sh">
+                <h2 class="margin2_sh">
+                목록
+                </h2>
+			</div>
+			<div class="tablema_sh">
+				<table class="table_sh" border="1";>
+                    <thead>
+                        <tr>
+                            <td>NO</td>
+                            <td><input type="checkbox"></td>
+                            <td>회사</td>
+                            <td>생산지</td>
+                            <td>전표번호</td>
+                            <td>출고일자</td>
+                            <td>거래유형</td>
+                            <td>담당자</td>
+                            <td>금액</td>
+                            <td>등록일</td>
+                            <td>수정일</td>
+                        </tr>
+                    </thead>
+					<tbody>
+                        <tr>
+                            <td>1</td>
+                            <td><input type="checkbox"></td>
+                            <td>한진 티라유택</td>
+                            <td>차이나</td>
+                            <td>11a-12312123</td>
+                            <td>2019-06-24</td>
+                            <td><select name="yu">
+                                <option value="chul">출고</option>
+                                <option value="wi">위탁</option>
+                            </select>
+                            </td>
+                            <td>담당자</td>
+                            <td>금액</td>
+                            <td>등록일</td>
+                            <td>수정일</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td><input type="checkbox"></td>
+                            <td>회사</td>
+                            <td>생산지</td>
+                            <td>전표번호</td>
+                            <td>출고일자</td>
+                            <td><select name="yu">
+                                <option value="chul">출고</option>
+                                <option value="wi">위탁</option>
+                                </select>
+                            </td>
+                            <td>담당자</td>
+                            <td>금액</td>
+                            <td>등록일</td>
+                            <td>수정일</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td><input type="checkbox"></td>
+                            <td>회사</td>
+                            <td>생산지</td>
+                            <td>전표번호</td>
+                            <td>출고일자</td>
+                            <td><select name="yu">
+                                <option value="chul">출고</option>
+                                <option value="wi">위탁</option>
+                                </select>
+                            </td>
+                            <td>담당자</td>
+                            <td>금액</td>
+                            <td>등록일</td>
+                            <td>수정일</td>
+                        </tr>
+                    </tbody>
+				</table>
+            </div> 
+        </div>
+    </body>
+</html>
